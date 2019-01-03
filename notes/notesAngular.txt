@@ -1,0 +1,14 @@
+ng new nomProjet
+	=> crea un nuovo progetto. Possono essere agiunti dei parametri tipo:
+	--style =scss --skip-test=true (non crea i file spec.test per gli unitTest)
+
+npm install bootstrap@3.3.7 --save
+	aggiunge boostrap e con --save lo aggiunge al package.json
+	poi in angular.json  aggiungere la linea  relativa   boostrap in style
+		"styles": [
+		"node_modules/bootstrap/dist/css/bootstrap.min.css",
+		"styles.scss"
+		]
+ng generate componetn nomDuComponent
+	per creare un nuovo  component 
+	scrorciatoia: new g c  nomDuComponent
