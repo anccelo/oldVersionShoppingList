@@ -1,8 +1,14 @@
-touch notesCLI.txt               
+$ touch notesCLI.txt               
 	--> create  a file "notesCLI.txt" in to corrently  directory
 
-start notepad++ notesCLI.txt 
+$ start notepad++ notesCLI.txt 
 	--> open with  notepad the file notesCLI.txt
 
-java -jar backTest1-shoppingList-0.1.0.jar
+$ java -jar backTest1-shoppingList-0.1.0.jar
 	--> execute a .jar 
+
+$ code frontAngular
+	--> open directory  with visualstudioCode
+
+$ mvn compile 
+	--> build a project (lancia dalla cartella dove si trova il pom.xml
