@@ -1,6 +1,13 @@
-this file is for my  notes  of git
+﻿this file is for my  notes  of git
 
 "Your branch is up-to-date with 'origin/master'."      =  "Il tuo ramo è aggiornato con "origine / master"."
 
 "Your branch is ahead of 'origin/master' by 1 commit." =  "Il tuo ramo è più avanti di "origine / master" di 1 commit."
 
+
+
+git add -A stages all changes
+
+git add . stages new files and modifications, without deletions
+
+git add -u stages modifications and deletions, without new files
